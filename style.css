@@ -1,5 +1,4 @@
 *{
-    box-sizing: border-box;
     user-select: none;
 }
 
@@ -18,7 +17,7 @@ header{
 }
 
 .brand{
-    margin: 0 20px 10px 0;
+    margin: 0 0 10px 0;
 }
 
 .brand span{
@@ -34,7 +33,7 @@ header{
 }
 
 .navbar-toggler{
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 #nav{
@@ -49,7 +48,8 @@ header{
 
 #nav ul li{
     letter-spacing: 1px;
-    margin: 10px 70px 10px 0;
+    padding-right: 20px;
+    margin: 10px 70px 10px 15px;
 
     position: relative;
 
@@ -107,7 +107,7 @@ header{
     border-radius: 5px;
 
     padding: 10px 15px;
-    margin: 10px 20px 10px 0;
+    margin: 10px 20px 10px 15px;
 
     transition: all .3s;
 }
@@ -206,7 +206,7 @@ header{
 
     transform: translate(-50%) scale(1.1);
 
-    animation: img1ani 10s linear infinite forwards;
+    animation: img1ani 12s linear infinite forwards;
 }
 
 .banner-aniimgs .img2{
@@ -216,7 +216,7 @@ header{
 
     transform: translateY(50%) scale(0.8);
 
-    animation: img2ani 10s linear infinite forwards;
+    animation: img2ani 12s linear infinite forwards;
 }
 
 .banner-aniimgs .img4{
@@ -226,7 +226,7 @@ header{
 
     transform: translate(-50%,100%) scale(0.8);
 
-    animation: img4ani 10s linear infinite forwards;
+    animation: img4ani 12s linear infinite forwards;
 }
 
 .banner-aniimgs .img3{
@@ -236,7 +236,7 @@ header{
 
     transform: translate(-100%,50%) scale(0.8);
 
-    animation: img3ani 10s linear infinite forwards;
+    animation: img3ani 12s linear infinite forwards;
 }
 
 
